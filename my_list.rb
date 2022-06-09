@@ -25,4 +25,4 @@ puts(list.any? { |e| e == 2 })
 puts(list.any? { |e| e == 5 })
 
 # Test #filter
- puts(list.filter? { |e| e.even? })  
+puts(list.filter?(&:even?))
